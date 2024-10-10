@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Inter var;
+    src: url(font/Inter-roman-latin-var.woff2);
+}
+
+.texto{
+    font-family: Inter var;
+}
