@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(61, 61, 61);
+}
+
+@font-face {
+    font-family: Inter var;
+    src: url(fonts/Inter-roman-latin-var.woff2);
+}
+
+.container{
+    position: relative;
+    left: 5px;
+}
+
+#cabecalho{
+    position: absolute;
+    left: 5px;
+    width: 100%;
+}
+
+#TextoHome{
+    font-family: Inter var;
+    color: aliceblue;
+}
+
+#logo{
+    width: 50px;
+}
+
+#imgMenu{
+    width: 50px;
+    transform: scaleY(-1);
+}
