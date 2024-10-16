@@ -8,22 +8,32 @@
     <title>Plagio</title>
 </head>
 <body>
-    <header class="d-flex" id="cabecalho">
+    <header class="d-flex justify-content-around" id="cabecalho">
         <div class="text-center d-flex">
-            <div class="row">
-                <div class="menu col">
-                    <img src="img/menu2.png" alt="" id="imgMenu">
+            <div class="row" id="left-header">
+                <div class="menu col invertColor">
+                    <img src="img/menu2.png" alt="" id="imgMenu" class="position-relative">
                 </div>
-                    <div class="home col">
-                        <img src="img/MangaDex_logo.png" alt="" id="logo">
-                    </div>
-                    <div class="col">
-                        <h2 id="TextoHome">MangaDex</h2>
-                    </div>
+                <div class="home col d-flex">
+                    <img src="img/MangaDex_logo.png" alt="" id="logo">
+                    <p id="TextHome" class="">MangaDex</p>
                 </div>
             </div>
         </div>
-    </header>
-    
+        <div class="row d-flex justify-content-end" id="right-header">
+            <div id="search" class="">
+                <input type="text" id="input-header" class="position-relative">
+            </div>
+            <div id="avatar-div">
+                <img src="img/avatar.png" alt="" class="">
+            </div>
+        </div>
+    </div>
+</header>
+<div data-v-eaa8ed75>
+    <div class="banner w-100">
+        <img src="img/cryingFreeman.jpg" alt="" class="" loading="lazy">
+    </div>
+</div>
 </body>
 </html>
