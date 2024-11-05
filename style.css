@@ -16,10 +16,10 @@ body{
 }
 
 #cabecalho{
-    position: absolute;
+    position: relative;
     left: 5px;
     width: 100%;
-    padding: 16px 16px 16px 16px;
+    padding: 10px 75px 0 60px;
     height: 80px;
 }
 
@@ -29,7 +29,7 @@ body{
 }
 
 .menu img{
-    top: 50%;
+    top:60%;
     transform: translateY(-50%);
     width: 30px;
     height: 25px;
@@ -85,13 +85,33 @@ body{
 .banner{
     height: 400px;
     object-position: 0px 30%;
-    background: linear-gradient(to bottom, rgb((25 25 28) / .6), rgb(25 26 28));
+    background: linear-gradient(to bottom, rgb((25 25 28) / 100%), rgb(25 26 28));
 }
 
-.banner img{
+.imgBanner{
     top: 0;
     left: 0;
     width: 100%;
     height: 150%;
     object-fit: cover;
+}
+
+#new-title{
+    color: ghostwhite;
+    padding: 0 0 0 60px;
+}
+
+.exposto{
+    position: relative;
+    display: flex;
+    height: 100%;
+    position: relative;
+    left: 5px;
+    width: 100%;
+    padding: 10px 75px 16px 60px;
+    height: 80px;
+}
+
+.exposto img{
+    width: 20%;
 }
