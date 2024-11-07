@@ -1,5 +1,6 @@
 body{
     background-color: rgb(33, 33, 33);
+    color: ghostwhite;
 }
 
 @font-face {
@@ -90,6 +91,7 @@ body{
     height: 150%;
     object-fit: cover;
     filter: grayscale(0.5) blur(50%);
+    border-radius: 2px;
 }
 
 #new-title{
@@ -100,8 +102,6 @@ body{
 .exposto{
     position: relative;
     display: flex;
-    height: 100%;
-    position: relative;
     left: 5px;
     width: 100%;
     padding: 10px 75px 16px 60px;
@@ -110,4 +110,17 @@ body{
 
 .exposto img{
     width: 20%;
+    border-radius: .25rem;
+}
+
+#info{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+.author{
+    position: absolute;
+    bottom: 0px;
+    font-style: italic  ;
 }
