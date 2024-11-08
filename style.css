@@ -106,21 +106,23 @@ body{
     width: 100%;
     padding: 10px 75px 16px 60px;
     height: 80px;
+    overflow: auto;
 }
 
 .exposto img{
-    width: 20%;
+    width: 15%;
     border-radius: .25rem;
 }
 
 #info{
+    overflow: auto;
     position: relative;
-    width: auto;
+    width: 85%;
     height: auto;
 }
 
 .author{
     position: absolute;
     bottom: 0px;
-    font-style: italic  ;
+    font-style: italic;
 }
