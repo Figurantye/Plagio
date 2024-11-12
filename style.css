@@ -105,17 +105,18 @@ body{
     left: 5px;
     width: 100%;
     padding: 10px 75px 16px 60px;
-    height: 80px;
     overflow: auto;
 }
 
 .exposto img{
-    width: 15%;
+    max-width: 15%;
+    min-width: 197px;
+    max-height: 10%;
     border-radius: .25rem;
 }
 
 #info{
-    overflow: auto;
+    overflow: hidden;
     position: relative;
     width: 85%;
     height: auto;
@@ -125,4 +126,9 @@ body{
     position: absolute;
     bottom: 0px;
     font-style: italic;
+}
+
+#info p{
+    max-height: 200px;
+    overflow: auto;
 }
